@@ -4,7 +4,7 @@ public class Cuenta {
 	
 	static Double saldo;
 	
-	public Cuenta(Double saldo) {
+	public Cuenta(String string, String string2, Double saldo) {
 		this.saldo=saldo;
 	}
 	
