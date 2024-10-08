@@ -8,10 +8,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import pkg.Cuenta;
+
 class CuentaTest {
+	
+	static Cuenta Cuenta;
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
+		Cuenta=new Cuenta();
 	}
 
 	@AfterAll
